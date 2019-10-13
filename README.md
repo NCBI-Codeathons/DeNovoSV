@@ -9,11 +9,28 @@ DeNovoSV is a pipeline designed to help identify and validate de novo structural
 
 ## Abstract
 
-The goal of DeNovoSV is to identify and validate structural variants that arose de novo in the postzygotic development of a child with a developmental disorder. Available data from the child and parents (forming a trio) include CGH array data, PacBio Sequel II long read sequences, Nanopore long read sequences and Illumina whole genome sequencing data available from the affected trio. At the start of this hackathon, we lacked an integrated bioinformatics pipeline to identify and prioritize de novo structural variants, so that such genomics datasets could be combined, compared and validated. 
+The goal of DeNovoSV is to identify and validate de novo structural variants found in a trio (i.e. a biological father, mother and de novo in a proband = child). In a test case, we used DeNovoSV to find high confidence, de novo SVs arising during the postzygotic development of a child presenting with a developmental disorder. Available data from the trio included CGH array data,  Nanopore long read sequences and Illumina whole genome sequencing (WGS) reads. At the start of this hackathon, we lacked an integrated bioinformatics pipeline to identify and prioritize de novo structural variants, so that such genomics datasets could be combined, compared and validated. The DeNovoSV pipeline was implemented as described here.
 
 ## Inputs
 
+Oxford Nanopore long-read sequencing BAM files from a trio
+Illumina WGS sequencing data from the trio
+(Array comparative genome hybridization data from the trio)
+
 ## Outputs
+High confidence de novo SVs called from DeNovoSV
 
 ## Authors
+
+Colin Diesh - pipeline
+Claudia M.B. Carvalho - genetic trio
+
+Elbay E. Aliyev
+Haowei Du 
+Michael M. Khayat
+ChunHsuan Lo
+David E. Symer
+
+
+
 
