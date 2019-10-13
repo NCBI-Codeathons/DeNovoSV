@@ -13,23 +13,23 @@ The goal of DeNovoSV is to identify and validate de novo structural variants fou
 
 ## Inputs
 
-Oxford Nanopore long-read sequencing BAM files from a trio
-Illumina WGS sequencing data from the trio
-(Array comparative genome hybridization data from the trio)
+* Oxford Nanopore long-read sequencing BAM files from a trio
+* Illumina WGS sequencing data from the trio
+* (Array comparative genome hybridization data from the trio)
 
 ## Outputs
 High confidence de novo SVs called from DeNovoSV
 
 ## Authors
 
-Colin Diesh - pipeline
-Claudia M.B. Carvalho - genetic trio
-
-Elbay E. Aliyev
-Haowei Du 
-Michael M. Khayat
-ChunHsuan Lo
-David E. Symer
+* Colin Diesh - pipeline
+* Claudia M.B. Carvalho - genetic trio
+* 
+* Elbay E. Aliyev
+* Haowei Du 
+* Michael M. Khayat
+* ChunHsuan Lo
+* David E. Symer
 
 
 
