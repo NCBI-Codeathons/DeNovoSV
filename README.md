@@ -22,7 +22,7 @@ The goal of DeNovoSV is to identify and validate de novo structural variants fou
 
 ## Custom filters implemented in DeNovoSV
 
-* > or = 5 Nanopore reads
+* RE > 5 (Nanopore)
 * no KI
 * no mapping to chr. GL (unmapped contig)
 * no genotype 0/0 (all reference genotype)
