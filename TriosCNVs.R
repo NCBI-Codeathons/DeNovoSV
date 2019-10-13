@@ -12,6 +12,8 @@
 ##' @param sampleNames	  vector of sample identifiers
 ##' @param outputDir	  output directory
 ##------------------------------------------------------------------------------
+require(data.table)
+require(DNAcopy)
 
 TriosCNV <- function(bedFiles,sampleNames,outputDir){
   region.list <- lapply(bedFiles,fread)
