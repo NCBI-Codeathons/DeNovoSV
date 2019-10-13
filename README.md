@@ -16,9 +16,13 @@ The goal of DeNovoSV is to identify and validate de novo structural variants fou
 * Oxford Nanopore long-read sequencing BAM files from a trio
 * Illumina WGS sequencing data from the trio
 * (Array comparative genome hybridization data from the trio)
+* (long-read input) VCF files from Sniffles
+* depth of coverage from mosdepth
+* (short-read input) VCF files from Delly, Lumpy, Manta
 
 ## Outputs
-High confidence de novo SVs called from DeNovoSV
+
+* high confidence de novo SVs called by DeNovoSV
 
 ## Authors
 
