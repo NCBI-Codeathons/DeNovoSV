@@ -20,6 +20,13 @@ The goal of DeNovoSV is to identify and validate de novo structural variants fou
 * depth of coverage from mosdepth
 * (short-read input) VCF files from Delly, Lumpy, Manta
 
+## Custom filters implemented in DeNovoSV
+
+* > or = 5 Nanopore reads
+* no KI
+* no mapping to chr. GL (unmapped contig)
+* no genotype 0/0 (all reference genotype)
+
 ## Outputs
 
 * high confidence de novo SVs called by DeNovoSV
